@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	
+	<!-- عنوان الصفحة  -->
+	<title> مطعم افندينا </title>
+	<link rel="icon" href="icon/logo.jpg">
+
+
+<!-- mdb -->
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<!-- Google Fonts Roboto -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+<!-- Material Design Bootstrap -->
+<!-- <link rel="stylesheet" href="css/mdb.min.css"> -->
+
+
+<!-- bootstrip -->
+<link rel="stylesheet" href="css/style=boot.css">
+
+
+<!-- icon mdb -->
+<link rel="stylesheet" href="css/style=icon.css">
+<link rel="stylesheet" href="css/all.css">
+
+
+<!-- my styles -->
+<link rel="stylesheet" href="css/style=my.css">
+
+
+<!-- <style>
+  #iconm1 i{
+    color: white !important;
+    margin:0 0 0 21%;
+    font-size: ;
+  }
+</style> -->
+
+<style>
+  .view img{
+    max-height: 360px;
+    object-fit: cover;
+  }
+
+
+/* .card img{
+max-height: 100%;
+min-width: 100%;
+height: 100%;
+} */
+.card{
+-webkit-box-shadow:0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+box-shadow:0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+}
+
+</style>
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<!--
+========================================================================================================================
+-->
+
+
+<!-- عنصر العلوي ناف بار  -->
+
+<header>
+
+<article>
+
+<nav  class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: #212529;">
+        
+	<!-- لوجو الموقع  -->
+    <a class="navbar-brand" href="index.html">
+      <img src="icon/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      مطعم افندينا 
+      </a>
+  
+	<!-- القائمة  -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+	<!-- نزول القائمة   -->
+    <div  style="justify-content: flex-start;" dir="rtl"  class="collapse navbar-collapse" id="navbarNav">
+      <ul  class="navbar-nav">
+  
+		<!-- الصفحه الرئيسية   -->
+      <li  class="nav-item active">
+        <a  class="nav-link" href="index.html"> الصفحه الرئيسية  <span class="sr-only">(current)</span></a>
+      </li>
+  
+		<!-- محتويات -->
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        محتويات 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </li> -->
+  
+	<!--  تواصل معنا  -->
+      <li class="nav-item">
+        <a class="nav-link" href="html/contact.html"> تواصل معنا </a>
+      </li>
+  
+  
+		<!-- اجزاء من القائمة الكبيرة   -->
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="login.html"> تسجيل الدخول </a>
+      </li>
+  
+      <li class="nav-item">
+        <a class="nav-link" href="register.html"> تسجيل في الموقع </a>
+      </li> -->
+              
+  <!-- </li>
+  <li class="nav-item">
+  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li> -->
+  
+  </ul>
+  </div>
+</nav>
+
+</article>
+
+
+
+<!--
+========================================================================================================================
+-->
+
+
+<!-- العرض المتحرك -->
+
+<article>
+
+	<!-- العنصر المسوال عن التحريك   -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+	
+	
+    <!--/.Indicators-->
+    <!--Slides-->
+	<!-- الصور المراد عرضها   -->
+    <div class="carousel-inner" role="listbox">
+	
+	
+	<!-- card ==== 1 -->
+      <div class="carousel-item active">
+        <div class="view">
+		
+		<a href="https://www.facebook.com/afandina.fym/posts/2589922374559477">
+          <img class="d-block w-100" src="img/3/6.jpg"
+            alt="First slide">
+			</a>
+			
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+		
+          <h3 class="h3-responsive"> سمك بوري </h3>
+		  
+          <p> السعر : 199 </p>
+        </div>
+      </div>
+	  
+	  
+	  <!-- card ==== 2 -->
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+		
+		<a href="https://www.facebook.com/afandina.fym/posts/2586930568191991">
+          <img class="d-block w-100" src="img/3/7.jpg"
+            alt="Second slide">
+			</a>
+			
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive"> سمك بلطي مشوي </h3>
+          <p> السعر : 62 </p>
+        </div>
+      </div>
+	  
+	  
+	  
+	  <!-- card ==== 3 -->
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+		
+		<a href="https://www.facebook.com/afandina.fym/posts/2583753148509733">
+          <img class="d-block w-100" src="img/3/10.jpg"
+            alt="Third slide">
+			</a>
+			
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">  3شوربة سي فود وسط  </h3>
+          <p> السعر : 75 </p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+	
+	<!-- العنصر المسؤال عن التحريك الاسهم  -->
+	<!-- السهم الشمال   -->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+	
+	<!-- السهم اليمين   -->
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+</article>
+
+
+
+</header>
+
+
+
+<!--
+========================================================================================================================
+-->
+
+<Main style="margin: auto; max-width: 740px; direction: rtl; text-align: right;">
+
+
+	<!-- card  1 -->
+  <div class="card mb-3" style="max-width: 720px; margin: 10px;">
+      <div class="row no-gutters">
+
+        <div class="col-md-4" >
+		
+		<a href="https://www.facebook.com/afandina.fym/posts/2589922374559477">
+          <img src="img/4/6.jpg" class="card-img" alt="...">
+		  </a>
+        </div>
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> سمك بوري </h5>
+            <p class="card-text"> سمكتين بوري زيت وليمون وزنهم كليو تقريبا + 4سمكات بلطي مقلي وزنهم كيلو تقريبا + 4استيك فيليه مشوي + 44ارز + 4سلطة + عيش </p>
+            <p class="card-text"><small class="text-muted"> ب199ج </small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+	
+		<!-- card 2 -->
+    <div class="card mb-3" style="max-width: 720px; margin: 10px;">
+      <div class="row no-gutters">
+
+
+        <div class="col-md-4">
+		
+		<a href="https://www.facebook.com/afandina.fym/posts/2586930568191991">
+          <img src="img/4/7.jpg" class="card-img" alt="...">
+		  </a>
+		  
+        </div>
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> سمكه بلطي </h5>
+            <p class="card-text">سمكه بلطي مشوي زيت وليمون + شوربة جمبري + 1ارز + 1سلطه + عيش </p>
+            <p class="card-text"><small class="text-muted"> ب62ج </small></p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+	<!-- card 3 -->
+	
+    <div class="card mb-3" style="max-width: 720px; margin: 10px;">
+      <div class="row no-gutters">
+
+        <div class="col-md-4">
+		
+		<a href="https://www.facebook.com/afandina.fym/posts/2583753148509733">
+          <img src="img/4/10.jpg" class="card-img" alt="...">
+		  </a>
+		  
+        </div>
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> شوربه سي فود </h5>
+            <p class="card-text"> 3شوربه سي فود وسط </p>
+            <p class="card-text"><small class="text-muted"> ب75ج </small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+	<!-- card  4 -->
+	
+    <!--<div class="card mb-3" style="max-width: 720px; margin: 10px;">
+      <div class="row no-gutters">
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">c</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">p $9999</small></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <img src="img/1/img1.jpg" class="card-img" alt="...">
+        </div>
+
+      </div>
+    </div>-->
+
+
+</Main>
+
+
+
+
+<!--
+========================================================================================================================
+-->
+
+<!-- الجزء السفلي  -->
+
+<footer >
+
+<article style="margin: auto; max-width: 740px;">
+
+<!-- Card -->
+<div class="card card-cascade wider reverse" style="max-width: 740px; margin: 10px;">
+
+  <!-- Card image -->
+  <div class="view view-cascade overlay">
+ 
+	<iframe 
+	src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d111324.58337967806!2d30.922131848711864!3d29.31480742408027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d29.3149177!2d30.8518515!5e0!3m2!1sar!2seg!4v1598639312170!5m2!1sar!2seg" 
+	width="100%" 
+	height="360" 
+	frameborder="0" 
+	style="border:0;" 
+	allowfullscreen="" 
+	aria-hidden="false" 
+	tabindex="0">
+	</iframe>
+	
+
+<!--  الصورة ال في تواصل معنا 
+  <a href="">
+    <img class="card-img-top" src="img/1/img1.jpg"
+      alt="Card image cap">
+	  </a>
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>-->
+	
+  </div>
+
+
+<!-- قسم عنا  -->
+  <!-- Card content -->
+  <div class="card-body card-body-cascade text-center">
+
+    <!-- Title -->
+	<a href="https://www.facebook.com/afandina.fym" style="text-decoration: none; color: #212529;">
+    <h4 class="card-title"><strong> مطعم افندينا </strong></h4>
+	</a>
+	
+    <!-- Subtitle -->
+    <h6 class="font-weight-bold indigo-text py-2"> من نحن </h6>
+    <!-- Text -->
+    <p class="card-text">
+	مطعم افندينا هو  مطعم ماكولات بحرية 
+    </p>
+	
+	<p class="card-text">
+	متخصص في الماكولات البحرية 
+    </p>
+
+    <!-- Subtitle -->
+  <a style="text-decoration: none; color: #212529;" href="html/contact.html">
+    <h6 class="font-weight-bold indigo-text py-2" style="color:blue;"> يمكنك زيارة صفحة اتصال بنا </h6>
+  </a>
+
+  <a style="text-decoration: none; color: #212529;" >
+    <h6 class="font-weight-bold indigo-text py-2"> او تواصل معنا عن طريق </h6>
+  </a>
+
+
+<!-- مواقع التواصل معنا  -->
+<div >
+
+    <!-- facebook -->
+    <a style="color: #212529;" 
+	href="https://www.facebook.com/afandina.fym" 
+	class="px-2 fa-lg fb-ic">
+	<i class="fab fa-facebook-f"></i>
+	</a>
+
+    <!-- Twitter -->
+    <!--<a style="color: #212529;" href="icon/ad.svg" class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+	-->
+
+  </div>
+
+    <!-- Linkedin -->
+    <!-- <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a> -->
+
+  </div>
+
+</div>
+
+
+
+<!--
+========================================================================================================================
+-->
+
+	
+<!-- الجزء المسؤال عن النسخ -->
+
+<div >
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="border-top: 2px solid #212529;">© 2020 Copyright:
+    <a href="index.html" class="btn btn-dark" style="font-weight: bold; "> مطعم افندينا </a>
+  </div>
+  <!-- Copyright -->
+</div>
+
+
+
+<!-- Card -->
+
+</article>
+
+
+
+</footer>
+
+
+
+
+
+<!--
+========================================================================================================================
+-->
+
+
+
+
+
+
+<!-- تجربة  -->
+
+
+
+
+
+
+
+
+
+<!-- mdb -->
+
+<!-- bootstrip -->
+<script src="js/jquery=boot.js"></script>
+<script src="js/javascript=boot.js"></script>
+
+
+</body>
+</html>
